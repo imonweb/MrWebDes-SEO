@@ -1,0 +1,52 @@
+@media (max-width: 991px){
+
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  .header {
+    #menu-btn {
+      display: inline-block;
+
+      &.fa-times {
+        transform: rotate(180deg);
+      }
+    }
+
+    .navbar {
+      position: absolute;
+      top: 99%;
+      left: 0;
+      right: 0;
+      background: var(--light-bg);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+      &.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+
+      a {
+        font-size: 2rem;
+        display: block;
+        margin: 2rem;
+      }
+    }
+  }
+  
+}
+
+@media (max-width: 450px){
+
+  html {
+    font-size: 55%;
+  }
+  
+}
