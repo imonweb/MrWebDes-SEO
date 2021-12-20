@@ -5,3 +5,19 @@
   --light-color: #666;
   --light-bg: #eee;
 }
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: .5rem;
+  background: var(--light-bg);
+  cursor: pointer;
+  color: var(--black);
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+
+  &:hover {
+    background: var(--red);
+    color: var(--white);
+  }
+}
