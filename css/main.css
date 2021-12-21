@@ -249,4 +249,370 @@ section {
   width: 100%;
   border-radius: .5rem;
 }
+
+.pricing .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+
+.pricing .box-container .box {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.pricing .box-container .box:nth-child(2) {
+  background: var(--light-bg);
+  border-radius: .5rem;
+}
+
+.pricing .box-container .box:nth-child(2) .btn {
+  background: var(--red);
+  color: #fff;
+}
+
+.pricing .box-container .box:nth-child(2) .btn:hover {
+  opacity: .8;
+}
+
+.pricing .box-container .box h3 {
+  display: inline-block;
+  padding: .5rem 1.5rem;
+  font-weight: normal;
+  font-size: 2rem;
+  background: var(--red);
+  color: #fff;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+
+.pricing .box-container .box .price {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: var(--black);
+}
+
+.pricing .box-container .box .price span {
+  font-size: 3rem;
+}
+
+.pricing .box-container .box ul {
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.pricing .box-container .box ul li {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+.pricing .box-container .box ul li i {
+  padding-right: .5rem;
+  color: var(--red);
+}
+
+.reviews .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+
+.reviews .box-container .box .user {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.reviews .box-container .box .user img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+
+.reviews .box-container .box .user h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: .5rem;
+}
+
+.reviews .box-container .box .user .stars i {
+  font-size: 1.5rem;
+  color: var(--red);
+}
+
+.reviews .box-container .box .text {
+  padding: 2rem;
+  border-radius: .5rem;
+  background: var(--light-bg);
+  font-size: 1.5rem;
+  color: var(--light-color);
+  position: relative;
+  margin-top: 3rem;
+  line-height: 2;
+}
+
+.reviews .box-container .box .text::before {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  left: 2rem;
+  height: 2rem;
+  width: 2rem;
+  background: var(--light-bg);
+  transform: rotate(45deg);
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact .row .box-container {
+  width: 35rem;
+}
+
+.contact .row .box-container .box {
+  background: var(--light-bg);
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+.contact .row .box-container .box:first-child {
+  margin-bottom: 2rem;
+}
+
+.contact .row .box-container .box h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: 1rem;
+}
+
+.contact .row .box-container .box p {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding-top: 1.5rem;
+}
+
+.contact .row .box-container .box p span {
+  color: var(--red);
+  padding-right: .5rem;
+}
+
+.contact .row form {
+  flex: 1 1 42rem;
+  background: var(--light-bg);
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+.contact .row form h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--black);
+}
+
+.contact .row form .input-box {
+  background: var(--white);
+  width: 100%;
+  margin: .7rem 0;
+  border-radius: .5rem;
+  font-size: 1.6rem;
+  padding: 1.2rem 1.4rem;
+  text-transform: none;
+  color: var(--light-color);
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row form .btn {
+  background: var(--red);
+  color: #fff;
+}
+
+.contact .row form .btn:hover {
+  opacity: .8;
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact .row .box-container {
+  width: 35rem;
+}
+
+.contact .row .box-container .box {
+  background: var(--light-bg);
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+.contact .row .box-container .box:first-child {
+  margin-bottom: 2rem;
+}
+
+.contact .row .box-container .box h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: 1rem;
+}
+
+.contact .row .box-container .box p {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding-top: 1.5rem;
+}
+
+.contact .row .box-container .box p span {
+  color: var(--red);
+  padding-right: .5rem;
+}
+
+.contact .row form {
+  flex: 1 1 42rem;
+  background: var(--light-bg);
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+.contact .row form h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--black);
+}
+
+.contact .row form .input-box {
+  background: var(--white);
+  width: 100%;
+  margin: .7rem 0;
+  border-radius: .5rem;
+  font-size: 1.6rem;
+  padding: 1.2rem 1.4rem;
+  text-transform: none;
+  color: var(--light-color);
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row form .btn {
+  background: var(--red);
+  color: #fff;
+}
+
+.contact .row form .btn:hover {
+  opacity: .8;
+}
+
+.newsletter {
+  background: var(--red);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.newsletter .content {
+  flex: 1 1 42rem;
+}
+
+.newsletter .content h3 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: .5rem;
+}
+
+.newsletter .content p {
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.newsletter form {
+  flex: 1 1 42rem;
+  background: #fff;
+  border-radius: .5rem;
+  padding: 0.7rem;
+  display: flex;
+}
+
+.newsletter form .email {
+  width: 100%;
+  padding: 0 1.4rem;
+  font-size: 1.6rem;
+  text-transform: none;
+}
+
+.newsletter form .btn {
+  margin-top: 0;
+  background: #333;
+  color: #fff;
+}
+
+.newsletter form .btn:hover {
+  background: var(--red);
+}
+
+.quick-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: var(--black);
+  justify-content: space-between;
+}
+
+.quick-links .logo {
+  color: var(--white);
+  font-size: 2.5rem;
+}
+
+.quick-links .logo i {
+  color: var(--red);
+}
+
+.quick-links .links a {
+  margin-left: 2rem;
+  font-size: 1.7rem;
+  color: var(--white);
+}
+
+.quick-links .links a:hover {
+  color: var(--red);
+}
+
+.credit {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: var(--light-bg);
+  justify-content: space-between;
+}
+
+.credit p {
+  font-size: 2rem;
+  color: var(--light-color);
+}
+
+.credit p span {
+  color: var(--red);
+}
+
+.credit .share a {
+  margin-left: 2rem;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.credit .share a:hover {
+  color: var(--red);
+}
 /*# sourceMappingURL=main.css.map */
