@@ -238,4 +238,15 @@ section {
   color: var(--light-color);
   line-height: 2;
 }
+
+.work .box-container {
+  columns: 3 25rem;
+  gap: 2rem;
+}
+
+.work .box-container img {
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: .5rem;
+}
 /*# sourceMappingURL=main.css.map */
