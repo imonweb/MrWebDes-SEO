@@ -43,3 +43,14 @@ body.active {
 section {
   padding: 3rem 9%;
 }
+
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  color: var(--black);
+
+  span {
+    color: var(--red);
+  }
+}
